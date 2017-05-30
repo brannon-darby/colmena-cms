@@ -8,12 +8,12 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "paths": {
-      "@angular/*": ["node_modules/@angular/*"],
-      "@ngrx/*": ["node_modules/@ngrx/*"],
-      "rxjs/*": ["node_modules/rxjs/*"]
+      "@angular/*": ["./node_modules/@angular/*"],
+      "@ngrx/*": ["./node_modules/@ngrx/*"],
+      "rxjs/*": ["./node_modules/rxjs/*"]
     },
     "typeRoots": [
-      "node_modules/@types"
+      "./node_modules/@types"
     ],
     "lib": [
       "es2016",
